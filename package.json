@@ -1,0 +1,24 @@
+{
+  "name": "meetup_webpack",
+  "version": "1.0.0",
+  "description": "Some examples to webpack meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack index.js app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Are0215/WebackMeetup.git"
+  },
+  "author": "arodrigueze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Are0215/WebackMeetup/issues"
+  },
+  "homepage": "https://github.com/Are0215/WebackMeetup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.16.5"
+  }
+}
