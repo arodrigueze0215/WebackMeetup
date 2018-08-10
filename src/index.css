@@ -1,0 +1,15 @@
+.dimens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+}
+.son {
+    background-color: peru;
+    width: 200px;
+    height: 200px;
+}
