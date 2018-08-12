@@ -4,9 +4,9 @@
   "description": "Some examples to webpack meetup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack index.js app.js",
-    "build": "webpack"
+    "step_2": "webpack --config ./step_2/webpack.config.js --watch",
+    "step_3": "webpack --config ./step_3/webpack.config.js --watch",
+    "step_4": "webpack --config ./step_4/webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   "homepage": "https://github.com/Are0215/WebackMeetup#readme",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-command": "^0.4.1"
